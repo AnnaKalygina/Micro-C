@@ -198,7 +198,7 @@ Next, index the file ``.pairs.gz`` file:
   pairix mapped.pairs.gz
 
 
-Genereting single resolution contact map files 
+Generating single resolution contact map files 
 ###############################################
 
 As mentioned above, we will use the ``cload pairix`` utility of ``Cooler`` to generate contact maps:
@@ -233,7 +233,7 @@ As mentioned above, we will use the ``cload pairix`` utility of ``Cooler`` to ge
 
 
 
-Genereting multi-resolutions files and visualizing the contact matrix
+Generating multi-resolutions files and visualizing the contact matrix
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 When you wish to visualize the contact matrix, it is highly recommended to generate a multi-resolution ``.mcool`` file to allow zooming in and out to inspect regions of interest. The cooler ``zoomify`` utility allows you to generate a multi-resolution cooler file by coarsening. The input to ``cooler zoomify`` is a single resolution ``.cool`` file, to allow zooming in into regoins of interest we suggest to generate a ``.cool`` file with a small bin size, e.g. 1kb. Multi-resolution files uses the suffix ``.mcool``.
